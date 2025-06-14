@@ -131,3 +131,34 @@ footer {
   display: block;
   margin-top: 4px;
 }
+.faq {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: left;
+}
+
+.faq-item h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
