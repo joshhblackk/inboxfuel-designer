@@ -88,3 +88,46 @@ footer {
   padding: 40px 20px;
   background-color: #f8f8f8;
 }
+.testimonials {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.testimonial {
+  background-color: #f8f8f8;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.testimonial p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.testimonial h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.testimonial span {
+  font-weight: normal;
+  color: #555;
+  display: block;
+  margin-top: 4px;
+}
